@@ -3,7 +3,7 @@
 For the lecture *multiperspective movement analysis* we recorded motion capture data using a Vicon system simultaneously with force plate data in order to calculate inverse dynamics of the lower limb in Matlab. We extended this with a wobbling mass model in Simulink.
 
 For the lecture we carried out a drop jump:
-![drop_jump](/lecture/dropJump.gif)
+![drop_jump](/lecture/dropJump.gif =600x450)
 
 In the project we extended this with a more detailed comparison of a squat jump vs. a countermovement jump.
 
@@ -14,7 +14,8 @@ To run, simply execute the Matlab files 'Vicon_inverseDynamics.m' and/or 'invers
 │projectdir                      <- Main folder
 |
 ├── lecture                      <- Analysis of drop jump carried out as part of the lecture
-│   ├── dropJump.gif             <- Gif showing lower limb segments during drop jump and wobbling mass movement
+│   ├── dropJump.gif             <- Gif showing lower limb segments during drop jump and wobbling mass 
+│   │                               movement
 │   ├── Gelenksdaten.xlsx        <- Vicon motion capture data
 │   ├── GRFundCoP.xlsx           <- Force plate data
 │   ├── Vicon_inverseDynamics.m  <- Matlab script for calculation of inverse dynamics of the lower limb
