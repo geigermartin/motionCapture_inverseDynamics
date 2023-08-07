@@ -11,7 +11,7 @@ To run, simply execute the Matlab files 'Vicon_inverseDynamics.m' and/or 'invers
 
 ## Folder Structure 
 ```
-│projectdir                      <- Main folder
+│projectdir
 |
 ├── lecture                      <- Analysis of drop jump carried out as part of the lecture
 │   ├── dropJump.gif             <- Gif showing lower limb segments during drop jump and wobbling mass 
@@ -31,5 +31,5 @@ To run, simply execute the Matlab files 'Vicon_inverseDynamics.m' and/or 'invers
 │   ├── presentation.pdf         <- Final presentation
 │   ├── squatJump.gif            <- Gif showing squat jump and wobbling mass movement
 │
-├── README.md        <- Top-level README.
+├── README.md
 ```
